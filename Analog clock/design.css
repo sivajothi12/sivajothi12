@@ -1,0 +1,106 @@
+body{
+    background: aquamarine;
+    cursor: pointer;
+}
+.outerclock
+{
+    width: 350px;
+    height: 350px;
+    background:whitesmoke;
+    position: relative;
+    margin-left: 35%;
+    margin-top: 10%;
+    border-radius: 50%;
+    box-shadow: 6px 6px 8px grey,-6px -6px 8px grey;
+}
+.innerclock
+{
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    background: black;
+    background-size: cover;
+    border-radius: 50%;
+}
+.circle
+{
+    width: 20px;
+    height:20px;
+    position: absolute;
+    top:46%;
+    left: 47%;
+    border-radius: 50%;
+    background:whitesmoke;
+    z-index: 4;
+    
+}
+#hour
+{
+    width: 10px;
+    height: 75px;
+    background: aqua;
+    position: absolute;
+    top:24%;
+    left: 30%;
+    border-radius: 0px 0px 50% 50%;
+    transform-origin: bottom;
+    z-index: 2;
+}
+#min
+{
+    width: 8px;
+    height: 110px;
+    background: white;
+    position: absolute;
+    top: 1%;
+    left: 17%;
+    border-radius: 0px 0px 50% 50%;
+    transform-origin: bottom;
+    z-index: 1;
+}
+#sec
+{
+    width:5px;
+    height: 120px;
+    background:goldenrod;
+    position: absolute;
+    top:1%;
+    left:25%;
+    border-radius:0px 0px 50% 50%;
+    transform-origin: bottom;
+    z-index: 3;
+}
+.time
+{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px grey;
+    align-items: center;
+}
+.time p:nth-child(1)
+{
+    position: absolute;
+    left:48%;
+    top:110px;
+}
+.time p:nth-child(2)
+{
+    position: absolute;
+    left: 36%;
+    top:260px;
+}
+.time p:nth-child(3)
+{
+    position: absolute;
+    left:61%;
+    top:270px;
+}
+.time p:nth-child(4)
+{
+    position: absolute;
+    left:48%;
+    top:420px;
+}
